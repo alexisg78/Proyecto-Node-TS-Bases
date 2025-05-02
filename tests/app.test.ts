@@ -1,10 +1,19 @@
-
+// AAA --> Arrange, Act, Assert
 
 
 describe('App', () => {
-  test('Should be true', () => {
+  test('Should be 30', () => {
 
-    expect(true).toBe(true);
+
+    //1- Arrange
+    const num1 = 10
+    const num2 = 20
+    
+    //2- Act
+    const result= num1 + num2 
+
+    //3- Assert
+    expect(result).toBe(30);
 
   })
 })
