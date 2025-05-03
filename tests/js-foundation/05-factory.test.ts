@@ -10,6 +10,7 @@ describe('js-foundation/05-factory', () => {
     
     
     const makePerson = buildMakePerson({ getUUID, getAge });
+    expect(typeof makePerson).toBe('function');
 
   })
 
