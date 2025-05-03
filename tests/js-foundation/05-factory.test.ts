@@ -8,9 +8,8 @@ describe('js-foundation/05-factory', () => {
 
   test('buildMakePerson should return a function', () => {
     
-    
     const makePerson = buildMakePerson({ getUUID, getAge });
-    expect(typeof makePerson).toBe('function');
+    expect(typeof makePerson).toBe('function'); // agrego el expect para verificar que la funcion es de tipo function
 
   })
 
